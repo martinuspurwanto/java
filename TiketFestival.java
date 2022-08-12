@@ -15,7 +15,7 @@ public class TiketFestival {
         int kelasVIP, kelasI, kelasII, kelasIII;
         boolean isNext = true;
         // Program menampilkan list tiket yang ada
-        kelasVIP = 0;
+        kelasVIP = 20;
         kelasI = 35;
         kelasII = 70;
         kelasIII = 150;
