@@ -155,7 +155,7 @@ public class TiketFestival {
                 System.out.print("   4. KELAS III     =  ");
 
                 pesan4 = input.nextInt();
-                kelasIII = kelasIII-pesan4;
+                
                 //Output
 
                 if (pesan4 > maxPesanIII) {
@@ -172,9 +172,10 @@ public class TiketFestival {
                     pesan = false;
                 }
             } while (pesan);
+            
+            kelasIII = kelasIII-pesan4;
 
-
-            //proses perhitungan harga = pesanan dikali harga menu
+            //proses perhitungan harga = pesanan dikali harga tiket
 
             double harga1 = pesan1 * VIP;
             double harga2 = pesan2 * I;
@@ -185,7 +186,7 @@ public class TiketFestival {
 
 
             // Harga pembelian dari masing-masing menu yang dipesan dengan menggunakan rumus:
-            //Harga pembelian = jumlah pesanan masing-masing menu * harga masing-masing menu
+            //Harga pembelian = jumlah pesanan masing-masing menu * harga masing-masing tiket
 
             System.out.println("Pembelian : \n");
             System.out.println("1. Kelas VIP      " + pesan1 + " tiket * Rp.   " + String.format("%.2f", VIP) +
