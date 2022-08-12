@@ -1,5 +1,10 @@
 package com.belajar;
-
+// Tugas Akhir Kelompok Introducting Programing Java
+// Annisa Riandani 2503090384
+// Lisa Dwi Astutik 2502082874
+// Rendy Meilano 2502089590
+// Martinus Harry Purwanto 2502085541
+// Rifma Dwi Leony 2502082193
 import java.util.Scanner;
 
 public class TiketFestival {
